@@ -1,6 +1,6 @@
 VIDEOS DEL PROFE JUAN ZULUAGA 
 
-Quede en:  Video 05 => min =>
+Quede en:  Video 06=> min =>50
 
 ###Atajos de teclado###
  ctrl+k+d => es para fortatear el codigo seleccionado,sirve mucho para web cuando queda medio desordenado.

@@ -11,11 +11,13 @@ namespace Ecommerce01.Data
         }
 
         public DbSet<Country> Countries { get; set; }
+        public DbSet<Category> Categories { get; set; } 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)//con todo esto le agrego un indice al campo nombre de country asi sea unico
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique();
+            modelBuilder.Entity<Category>().HasIndex(c => c.Name).IsUnique();
         }
 
     }
