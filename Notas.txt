@@ -1,6 +1,24 @@
 VIDEOS DEL PROFE JUAN ZULUAGA 
 
-Quede en:  Video 06=> min =>50
+Quede en:  Video 07=> min =>35
+
+RESUMEN VIDEOS Y PROTECTO
+
+Video 07 => Muestra como poder agregar provincias a los paises y que en el index muestre en numero cuantos tiene cada pais,Tener en cuenta que hay que crea la propiedad que pueda devolver la cantidad esto en la misma entidad y en cada metodo del controlador donde se agregue contenido de 2 tablas hacer el inher join con el .includ, al minuto 44 +- muestra como mostrar las provincias por pais en el detalle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###Atajos de teclado###
  ctrl+k+d => es para fortatear el codigo seleccionado,sirve mucho para web cuando queda medio desordenado.
@@ -30,3 +48,20 @@ class="btn btn-outline-warning" => si no pongo 2 veces el btn solo me muestra la
     </script>
 
 ==============================================================================================================
+<a asp-action="Details" asp-route-id="@Model.CountryId" class="btn btn-outline-success">Regresar</a>
+      asp-route-id="@Model.CountryId" => envio el id de country
+asp-action="Details" => le digo a donde ira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
