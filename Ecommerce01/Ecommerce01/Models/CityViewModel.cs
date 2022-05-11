@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Ecommerce01.Data.Entities
+namespace Ecommerce01.Models
 {
-    public class City
+    public class CityViewModel
     {
+
         public int Id { get; set; }
 
 
@@ -12,10 +13,8 @@ namespace Ecommerce01.Data.Entities
         [Required(ErrorMessage = "El Campo {0} es Obligatorio")]
         public string Name { get; set; }
 
-
-
         //Propiedades de Navegacion
-        public State State { get; set; }
-        public ICollection<User> Users { get; set; }//una ciudad tiene muchos usuarios
+        public int StateId { get; set; }
+
     }
 }

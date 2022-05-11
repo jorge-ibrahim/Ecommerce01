@@ -1,10 +1,13 @@
 ﻿using Ecommerce01.Data;
 using Ecommerce01.Data.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ecommerce01.Controllers
 {
+    [Authorize(Roles = "Admin")]//datanotation que permite asignar credencial de que solo un administrador puede trabajar con categoria,tambien
+            //la puedo asignar solo al algunos metodos como el eliminar. 
     public class CategoriesController : Controller
     {
         private readonly DataContext _context;
