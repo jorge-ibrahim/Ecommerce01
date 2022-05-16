@@ -42,6 +42,8 @@ builder.Services.ConfigureApplicationCookie(options =>//configura las cookies
 //cada ves que llame al iuser le digo asigname el userhelper, esto es mas que nada para las pruevas unitarias asi despues 
 //si quiero puedo cambiar el userhelper por otra clase con otras caracteristicas
 builder.Services.AddScoped<IUserHelper,UserHelper>();
+builder.Services.AddScoped<ICombosHelper, CombosHelper>();
+builder.Services.AddScoped<IBlobHelper, BlobHelper>();
 //esta primera es la que uso
 builder.Services.AddTransient<SeedDb>();//inyeccion que iny para usar una sola ves
 //builder.Services.AddScoped<SeedDb>(); //Esta es la mas usada y inyecta cada ves que se necesita y luego de la borra

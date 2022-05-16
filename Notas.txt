@@ -1,6 +1,6 @@
 VIDEOS DEL PROFE JUAN ZULUAGA 
 
-Quede en:  Video 10=> min =>35
+Quede en:  Video 11=> min =>40
 
 RESUMEN VIDEOS Y PROTECTO
 
@@ -8,7 +8,8 @@ Video 07 => Muestra como poder agregar provincias a los paises y que en el index
 
 Video 08 => completo el crud de multiple niveles, aca realizo los 3 funciones para cada entidad,state, y city
 video 09 => Creo la clase SeedDb para precargar datos por defecto en la DB,muestra como agregar el servicio para que inyecte esta seed, crea la clase user y cambia el dbcontext con el identitycontext que es para poder trabajar con la seguridad que da EF aparte que hace la migracion para que cree todas la tablas automaticamente. se muestra como cargar un usuario por defecto en la seed del proyecto.
-
+video 10= muestra como crear la vista del login y agregar las validaciones o credenciales para el ingreso de la pagina, min 40 muestra como configurar las pagina para mostrar error cuando no se encuentra una pagina o un usuario sin permiso.,min 48 crea la clase e interfas necesarias para crear los distintos metodos para cargar los combos del proyecto.
+video 11 = muestra como crear el blob en azure y como consumirlo para poder subir imagenes a este, min 35 creo la clase edituserview para poder editar los usurios, cambiar mails y contraseñas por separado
 
 
 
